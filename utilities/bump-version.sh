@@ -9,7 +9,7 @@ CODEMETA_FILE="codemeta.json"
 BASE_VERSION=$(grep '^Version:' $DESCRIPTION_FILE | awk '{print $2}' | cut -d. -f1,2)
 
 # Get the total number of commits in the Git history (this will be used as the patch number)
-PATCH_NUMBER=$(git rev-list --count HEAD)
+PATCH_NUMBER=$(($(git rev-list --count HEAD) - 1))
 
 # Combine the base version with the patch number
 NEW_VERSION="$BASE_VERSION.$PATCH_NUMBER"
