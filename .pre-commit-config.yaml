@@ -123,6 +123,8 @@ repos:
           Rscript --vanilla -e "codemetar::write_codemeta()"
         language: system
         files: DESCRIPTION
+        stages:
+            - pre-commit
     -   id: create-version-tag
         name: Create Version Tag
         entry: >

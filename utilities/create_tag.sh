@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 # This script creates a tag for the current commit
 # It reads the current version string from the DESCRIPTION file
 
