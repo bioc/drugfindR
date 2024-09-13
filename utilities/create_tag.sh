@@ -17,6 +17,6 @@ fi
 
 # Create a signed tag if it doesn't already exist
 echo "Creating tag for version $VERSION"
-git tag -s -a "$TAG" -m "build: New Version $VERSION"
+git tag -s -a "$TAG" -m "build: New Version $VERSION" --no-verify
 
 echo "Tag $TAG created"
