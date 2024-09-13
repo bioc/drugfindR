@@ -17,8 +17,6 @@ NEW_VERSION="$BASE_VERSION.$PATCH_NUMBER"
 # Get the current version from the DESCRIPTION file
 CURRENT_VERSION=$(grep '^Version:' $DESCRIPTION_FILE | awk '{print $2}' || true)
 
-EXPECTED_VERSION="$BASE_VERSION.$((PATCH_NUMBER - 1))"
-
 # Check if the version is already up to date
 if [[ "$CURRENT_VERSION" == "$NEW_VERSION" ]]; then
   echo "Version is already up-to-date: $NEW_VERSION"
@@ -26,6 +24,8 @@ if [[ "$CURRENT_VERSION" == "$NEW_VERSION" ]]; then
 fi
 
 echo "Updating version to: $NEW_VERSION"
+
+export SKIP="bump-version,codemeta-json-updated"
 
 # Update the DESCRIPTION file with the new version
 if [[ "$OSTYPE" == "darwin"* ]]; then
