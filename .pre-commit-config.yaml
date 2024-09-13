@@ -123,4 +123,3 @@ repos:
           Rscript --vanilla -e "codemetar::write_codemeta()"
         language: system
         files: DESCRIPTION
-        stages: [commit]
