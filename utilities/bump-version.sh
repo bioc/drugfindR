@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -xeuo pipefail
 
 # Define file paths
 DESCRIPTION_FILE="DESCRIPTION"
