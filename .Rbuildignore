@@ -1,6 +1,7 @@
 \.gitkeep$
 ^.bumpversion.cfg$
 ^.lintr$
+^.zenodo\.json$
 ^LICENSE\.md$
 ^Meta$
 ^README\.Rmd$
