@@ -23,7 +23,7 @@ targetRename <- function(inputNames) {
 
 #' Parameterize the base URL for the iLINCS API
 #'
-#'
+#' @keywords internal
 #' @return a fixed string URL
 .ilincsBaseUrl <- function() {
     "http://www.ilincs.org/api"
@@ -33,6 +33,7 @@ targetRename <- function(inputNames) {
 #'
 #' @param lib a string of libraries
 #'
+#' @keywords internal
 #' @return a boolean
 .validateLibrary <- function(lib) {
     lib %in% c("CP", "KD", "OE")
@@ -45,6 +46,7 @@ targetRename <- function(inputNames) {
 #'
 #' @param libs a character vector of libraries
 #'
+#' @keywords internal
 #' @return a boolean
 validateLibraries <- function(libs) {
     all(purrr::map_lgl(libs, .validateLibrary))
@@ -54,6 +56,7 @@ validateLibraries <- function(libs) {
 #'
 #' @param libs a character vector of libraries
 #'
+#' @keywords internal
 #' @return a stop if the libraries are invalid
 stopIfInvalidLibraries <- function(libs) {
     if (!validateLibraries(libs)) {
@@ -65,6 +68,7 @@ stopIfInvalidLibraries <- function(libs) {
 #'
 #' @param lib a string. One of "OE", "KD" or "CP"
 #'
+#' @keywords internal
 #' @return a tibble
 loadMetadata <- function(lib) {
     if (lib == "OE") {
@@ -83,6 +87,7 @@ loadMetadata <- function(lib) {
 #'
 #' @param lib A library name. Can be one of "OE", "KD" or "CP"
 #'
+#' @keywords internal
 #' @return A string with the associated library ID
 .return_library <- function(lib) {
     stopIfInvalidLibraries(lib)

@@ -15,3 +15,4 @@ A string with the associated library ID
 \description{
 Return the internal iLINCS Library ID for a given library
 }
+\keyword{internal}
