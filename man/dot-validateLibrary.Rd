@@ -15,3 +15,4 @@ a boolean
 \description{
 Check if the library is valid
 }
+\keyword{internal}

@@ -16,3 +16,4 @@ a boolean
 This function confirms that the library parameter
 is one of the allowed ones.
 }
+\keyword{internal}
