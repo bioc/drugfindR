@@ -15,7 +15,8 @@
   ],
   "labels": [
     "dependencies",
-    "renovate"
+    "renovate",
+    "merge-queue"
   ],
   "pre-commit": {
     "enabled": true
