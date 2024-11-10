@@ -1,27 +1,23 @@
 Package: drugfindR
 Title: Investigate iLINCS for candidate repurposable drugs
-Version: 0.99.1013
+Version: 0.99.1014
 Authors@R: c(
     person(given = c("Ali", "Sajid"),
            family = "Imami",
            role = c("aut", "cre"),
            email = "Ali.Sajid.Imami@gmail.com",
            comment = c(ORCID = "0000-0003-3684-3539")),
+    person(given = c("Smita"),
+            family = "Sahay",
+            role = c("aut"),
+            email = "Smita.Sahay@rockets.utoledo.edu",
+            comment = c(ORCID = "0009-0003-4377-8963")),
     person(given = c("Justin", "Fortune"),
            family = "Creeden",
            role = c("aut"),
            email = "Justin.Creeden@rockets.utoledo.edu",
            comment = c(ORCID = "0000-0003-3123-8401")),
-    person(given = c("Evelyn", "Alden"),
-           family = "Bates",
-           role = c("aut"),
-           email = "Evelyn.Bates@rockets.utoledo.edu",
-           comment = c(ORCID = "0000-0002-4157-2481")),
-    person(given = c("Smita"),
-            family = "Sahay",
-            role = c("aut"),
-            email = "Smita.Sahay@rockets.utoledo.edu",
-            comment = c(ORCID = "0009-0003-4377-8963")))
+    )
 Description: This package provides a convenient way to access the
     LINCS Signatures available in the iLINCS database. These signatures include
     Consensus Gene Knockdown Signatures, Gene Overexpression signatures and

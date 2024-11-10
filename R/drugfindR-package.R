@@ -37,11 +37,10 @@
 #' @section Maintainer:
 #' Ali Sajid Imami
 #' @section Contributors:
-#' Justin Fortune Creeden
 #' Smita Sahay
+#' Justin Fortune Creeden
 #' Sinead M. O'Donovan
 #' Hunter Eby
-#' Evelyn Alden Bates
 #' @section License:
 #' GNU Public License 3.0
 #' @section Acknowledgements:

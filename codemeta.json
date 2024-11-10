@@ -7,52 +7,13 @@
   "codeRepository": "https://github.com/CogDisResLab/drugfindR",
   "issueTracker": "https://github.com/CogDisResLab/drugfindR/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.99.1013",
+  "version": "0.99.1014",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
   "runtimePlatform": "R version 4.4.2 (2024-10-31)",
-  "author": [
-    {
-      "@type": "Person",
-      "givenName": ["Ali", "Sajid"],
-      "familyName": "Imami",
-      "email": "Ali.Sajid.Imami@gmail.com",
-      "@id": "https://orcid.org/0000-0003-3684-3539"
-    },
-    {
-      "@type": "Person",
-      "givenName": ["Justin", "Fortune"],
-      "familyName": "Creeden",
-      "email": "Justin.Creeden@rockets.utoledo.edu",
-      "@id": "https://orcid.org/0000-0003-3123-8401"
-    },
-    {
-      "@type": "Person",
-      "givenName": ["Evelyn", "Alden"],
-      "familyName": "Bates",
-      "email": "Evelyn.Bates@rockets.utoledo.edu",
-      "@id": "https://orcid.org/0000-0002-4157-2481"
-    },
-    {
-      "@type": "Person",
-      "givenName": "Smita",
-      "familyName": "Sahay",
-      "email": "Smita.Sahay@rockets.utoledo.edu",
-      "@id": "https://orcid.org/0009-0003-4377-8963"
-    }
-  ],
-  "maintainer": [
-    {
-      "@type": "Person",
-      "givenName": ["Ali", "Sajid"],
-      "familyName": "Imami",
-      "email": "Ali.Sajid.Imami@gmail.com",
-      "@id": "https://orcid.org/0000-0003-3684-3539"
-    }
-  ],
   "softwareSuggestions": [
     {
       "@type": "SoftwareApplication",
@@ -350,7 +311,7 @@
   "applicationCategory": "Genomics",
   "isPartOf": "https://bioconductor.org",
   "keywords": ["LINCS", "iLINCS", "drugrepurposing", "drugdiscovery", "transcriptomics", "geneexpression", "geneknockdown", "geneoverexpression", "chemicalperturbagen", "drugfindR", "r", "ilincs", "bioinformatics", "bioinformatics-pipeline"],
-  "fileSize": "2087.555KB",
+  "fileSize": "2087.33KB",
   "readme": "https://github.com/CogDisResLab/drugfindR/blob/devel/README.md",
   "contIntegration": ["https://github.com/CogDisResLab/drugfindR/actions/workflows/rworkflows.yml", "https://app.codecov.io/gh/CogDisResLab/drugfindR?branch=devel"],
   "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
